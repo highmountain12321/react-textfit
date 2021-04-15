@@ -12,12 +12,12 @@ interface TextfitProps {
      */
     max?: number,
     /**
-     *  (single|multi) Algorithm to fit the text. Use single for headlines and multi for paragraphs. 
+     *  (single|multi) Algorithm to fit the text. Use single for headlines and multi for paragraphs.
      *  Default is multi.
      */
     mode?: "multi" | "single",
     /**
-     * (Boolean) When mode is single and forceSingleModeWidth is true, the element's height will be ignored. 
+     * (Boolean) When mode is single and forceSingleModeWidth is true, the element's height will be ignored.
      * Default is true.
      */
     forceSingleModeWidth?: boolean,
@@ -39,9 +39,9 @@ interface TextfitProps {
 
 /**
  * Textfit
- * 
+ *
  * [github](https://github.com/malte-wessel/react-textfit/)
- * 
+ *
  * * fit **headlines and paragraphs** into any element
  * **fast:** uses binary search for efficiently find the correct fit
  * **100%** react-goodness
