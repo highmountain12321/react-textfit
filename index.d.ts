@@ -50,5 +50,4 @@ interface TextfitProps {
  */
 type Textfit = (props:TextfitProps) => JSX.Element
 
-export {Textfit}
 export default Textfit;
